@@ -13,7 +13,7 @@
     <header>
       <nav>
         <ul>
-          <li>Home</li>
+          <li><%= link_to "Home", root_path %></li>
           <li>About</li>
           <li>Reviews</li>
         </ul>
@@ -27,12 +27,15 @@
     <footer>
       <div class="links">
         <ul>
-          <li>About</li>
-          <li>Contact</li>
+          <li><%= link_to "About", about_path %></li>
+          <li><%= link_to "Contact", contact_path %></li>
         </ul>
       </div>
-      <div class="social">
-
+      <div class="social icons">
+        <a target="_blank" href="http://www.nicholasblock.com/resume.html"><%= image_tag("resume.png") %></a>
+  			<a target="_blank" href="https://www.linkedin.com/in/nicholasblock78"><%= image_tag("linkedin-logo.png") %></a>
+  			<a target="_blank" href="https://github.com/nicholasblock78"><%= image_tag("github-logo.png") %></a>
+        <a target="_blank" href="https://facebook.com/nick.block.94"><%= image_tag("facebook.png") %></a>
       </div>
     </footer>
   </body>

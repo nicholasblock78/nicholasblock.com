@@ -3,5 +3,8 @@ Rails.application.routes.draw do
 
   resources :products
 
+  get 'about' => 'site#about'
+  get 'contact' => 'site#contact'
+
   root 'site#index'
 end

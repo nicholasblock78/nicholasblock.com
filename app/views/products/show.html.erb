@@ -1,0 +1,37 @@
+<h4><%= @product.name %></h4>
+<div class="" id="pr-reviewsnippet"></div>
+<div class="" id="pr-reviewdisplay"></div>
+
+<script>
+   POWERREVIEWS.display.render({
+     api_key: "15ecdb55-59bd-44c4-a0ed-edfeec50855a",
+     locale: "en_US",
+     merchant_group_id: "78271",
+     merchant_id: "107652",
+     page_id: "<%= @product.page_id %>",
+     review_wrapper_url: "https://nicholasblock.com/products/review/?pr_page_id=<%= @product.page_id %>",
+     product: {
+       name: "<%= @product.name %>",
+       url: "http://nicholasblock.com/products",
+       image_url: "<%= @product.image_url %>",
+       description: "Placeholder",
+       category_name: "<%= @product.category %>",
+       upc: "",
+       brand_name: "",
+       price: "",
+       in_stock: 1,
+       variants: [
+           {
+           name: "",
+           description: "",
+           page_id_variant: "1",
+           upc: ""
+           }
+               ]
+           },
+     components: {
+       ReviewSnippet: "pr-reviewsnippet",
+       ReviewDisplay: "pr-reviewdisplay"
+             }
+           });
+ </script>

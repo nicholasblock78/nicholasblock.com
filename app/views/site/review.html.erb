@@ -8,10 +8,21 @@
       locale: "en_US",
       merchant_group_id: "78271",
       merchant_id: "107652",
-      page_id: '',
+      page_id: '<%= @product.page_id %>',
       page_id_variant: '',
       return_url: "http://www.nicholasblock.com/products",
       style_sheet: "",
+      product: {
+        name: "<%= @product.name %>",
+        url: "http://nicholasblock.com/products",
+        image_url: "<%= @product.image_url %>",
+        description: "Placeholder",
+        category_name: "<%= @product.category %> ",
+        upc: "",
+        brand_name: "",
+        price: "0.00",
+        in_stock: 1
+      },
       components: {
         Write: 'pr-write'
       }

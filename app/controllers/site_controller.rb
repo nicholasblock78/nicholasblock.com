@@ -10,7 +10,8 @@ class SiteController < ApplicationController
 
   def resume
   end
-  
+
   def review
+    @product = Product.find(params[:id])
   end
 end

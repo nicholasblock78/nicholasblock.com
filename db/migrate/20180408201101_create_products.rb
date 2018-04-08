@@ -6,6 +6,7 @@ class CreateProducts < ActiveRecord::Migration[5.1]
       t.string :page_id_variant
       t.string :image_url
       t.string :category
+      t.string :brand
 
       t.timestamps
     end

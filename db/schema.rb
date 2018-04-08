@@ -21,6 +21,9 @@ ActiveRecord::Schema.define(version: 20180408201101) do
     t.string "page_id_variant"
     t.string "image_url"
     t.string "category"
+    t.string "brand"
+    t.string "amazon"
+    t.string "asin"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

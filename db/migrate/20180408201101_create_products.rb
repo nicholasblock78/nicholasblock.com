@@ -7,6 +7,8 @@ class CreateProducts < ActiveRecord::Migration[5.1]
       t.string :image_url
       t.string :category
       t.string :brand
+      t.string :amazon
+      t.string :asin
 
       t.timestamps
     end

@@ -8,6 +8,9 @@ class SiteController < ApplicationController
   def contact
   end
 
+  def resume
+  end
+  
   def review
   end
 end

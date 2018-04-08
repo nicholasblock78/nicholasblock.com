@@ -3,6 +3,7 @@ Rails.application.routes.draw do
 
   resources :products
 
+  get 'resume' => 'site#resume'
   get 'review' => 'site#review'
   get 'about' => 'site#about'
   get 'contact' => 'site#contact'

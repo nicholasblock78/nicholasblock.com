@@ -18,4 +18,6 @@ class SiteController < ApplicationController
   def brands
   end
 
+  def hire
+  end
 end

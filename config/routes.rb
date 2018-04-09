@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   get 'resume' => 'site#resume'
   get 'brands' => 'site#brands'
+  get 'hire-me' => 'site#hire'
   get 'review' => 'site#review'
   get 'about' => 'site#about'
   get 'contact' => 'site#contact'

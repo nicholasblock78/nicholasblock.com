@@ -14,4 +14,8 @@ class SiteController < ApplicationController
   def review
     @product = Product.find(params[:id])
   end
+
+  def brands
+  end
+
 end

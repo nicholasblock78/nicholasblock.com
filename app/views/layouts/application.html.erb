@@ -24,9 +24,21 @@
       </nav>
     </header>
 
-    <main>
-      <%= yield %>
-    </main>
+    <div class="body">
+      
+      <main>
+        <div class="left">
+          <div id="top-headline"></div>
+        </div>
+        <div class="center">
+          <%= yield %>
+        </div>
+        <div class="right">
+          <div id="trending"></div>
+        </div>
+      </main>
+      
+    </div>
 
     <footer>
       <div class="links">

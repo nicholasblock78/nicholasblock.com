@@ -12,6 +12,7 @@
   <body>
     <script src='//ui.powerreviews.com/stable/4.0/ui.js'></script>
     <header>
+      <!-- <h1>Welcome to the <em>Block</em></h1> -->
       <nav>
         <ul>
           <li><%= link_to "Home", root_path %></li>
@@ -27,13 +28,13 @@
     <div class="body">
       
       <main>
-        <div class="left">
+        <div class="left third">
           <div id="top-headline"></div>
         </div>
-        <div class="center">
+        <div class="center third">
           <%= yield %>
         </div>
-        <div class="right">
+        <div class="right third">
           <div id="trending"></div>
         </div>
       </main>

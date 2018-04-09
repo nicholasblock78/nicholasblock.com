@@ -25,11 +25,15 @@ header {
   }
 }
 
+div.third {
+  margin: 1%;
+}
+
 div.left {
   background-color: goldenrod;
   height: 200px;
   // width: 300px;
-  flex-grow: 1;
+  flex-grow: 2;
 
 }
 
@@ -38,13 +42,13 @@ div.right {
   height: 200px;
   float: right;
   // width: 300px;
-  flex-grow: 1;
+  flex-grow: 2;
 }
 div.center {
   background-color: lightgreen;
   float: right;
   // width: 300px;
-  flex-grow: 2;
+  flex-grow: 3;
 }
 
 
@@ -52,7 +56,7 @@ main {
   background-color: #EDEEF0;
   display: flex;
   height: 500px;
-  margin: 5%;
+  margin: 3%;
   
 }
 

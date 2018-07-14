@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'review' => 'site#review'
   get 'about' => 'site#about'
   get 'contact' => 'site#contact'
+  get 'experiences' => 'site#experiences'
 
   root 'site#index'
 end

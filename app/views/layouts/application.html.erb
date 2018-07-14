@@ -4,7 +4,11 @@
     <title>Nicholas Block</title>
     <meta name="google-site-verification" content="0Yu0f-tH5aLvGB2jdl6GiP1E3PSbM6lc3HYWafHW6GU" />
     <%= csrf_meta_tags %>
-
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.slim.js"
+      integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+      crossorigin="anonymous"></script>
+  
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -18,9 +22,10 @@
           <li><%= link_to "Home", root_path %></li>
           <li><%= link_to "About", about_path %></li>
           <li><%= link_to "Brand Projects", brands_path %></li>
-          <li>Reviews</li>
           <li>Services</li>
-          <li><%= link_to "Products", products_path %></li>
+          <li><%= link_to "Experiences", experiences_path %></li>
+          <li>Q &amp; A</li>
+          <!-- <li><%= link_to "Products", products_path %></li> -->
         </ul>
       </nav>
     </header>
@@ -28,13 +33,13 @@
     <div class="body">
       
       <main>
-        <div class="left third">
+        <div class="left-third,third,left">
           <div id="top-headline"></div>
         </div>
-        <div class="center third">
+        <div class="center-third,third,center">
           <%= yield %>
         </div>
-        <div class="right third">
+        <div class="right-third,third,right">
           <div id="trending"></div>
         </div>
       </main>

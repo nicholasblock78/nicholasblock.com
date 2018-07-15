@@ -25,166 +25,168 @@ header {
   }
 }
 
-div.third {
-  margin: 1%;
-}
+// div.third {
+//   margin: 1%;
+// }
 
-div.left {
-  background-color: goldenrod;
-  height: 200px;
-  // width: 300px;
-  flex-grow: 2;
+// div.left {
+//   height: 200px;
+//   // width: 300px;
+//   flex-grow: 2;
 
-}
+// }
 
-div.right {
-  background-color: lightblue;
-  height: 200px;
-  float: right;
-  // width: 300px;
-  flex-grow: 2;
-}
-div.center {
-  background-color: lightgreen;
-  float: right;
-  // width: 300px;
-  flex-grow: 3;
-}
+// div.right {
+//   background-color: lightblue;
+//   height: 200px;
+//   float: right;
+//   // width: 300px;
+//   flex-grow: 2;
+// }
+// div.center {
+//   background-color: lightgreen;
+//   float: right;
+//   // width: 300px;
+//   flex-grow: 3;
+// }
 
 
-main {
-  background-color: #EDEEF0;
-  display: flex;
-  height: 500px;
-  margin: 3%;
+// main {
+//   background-color: #EDEEF0;
+//   display: flex;
+//   height: 500px;
+//   margin: 3%;
   
-}
+// }
+
+
+// /* Desktop web screens */
+// @media screen and (min-width: 800px) {
+//   .scroll {
+//     display: none;
+//   }
+// }
+
+// @media screen and (max-width: 800px) {
+//   body {
+//     background-color: yellow;
+    
+//     .scroll {
+//       margin-top: 30%;
+//     }
+//   }
+  
+//   /* Middle screens */
+//   @media screen and (max-width: 650px) {
+//     body {
+//       background-color: blue;
+//     }
+    
+//     /* Mobile Smallest Screens */
+//     @media screen and (max-width: 500px) {
+      
+      
+//       body {
+//         background-color: red;
+//       }
+      
+//       .scroll {
+//         margin-top: 10%;
+//       }
+//     }
+//   }
+// }
+
+// main {
+//   background-color: silver;
+//   box-shadow: 0 3px 2px -2px black;
+//   clear: both;
+//   padding-bottom: 2%;
+//   margin-bottom: 2%;
+//   text-align: center;
+  
+//   p {
+//     // font-family: 'Lato', sans-serif;
+//     margin: 10px auto;
+//     text-align: justify;
+//     text-indent: 30px;
+//     width:60%;
+//   }
+// }
+
+// main.contact p {
+//   display: inline-block;
+// }
+
+// main.contact p strong {
+//   margin-right: 20px;
+//   width: 110px;
+// }
+
+// .welcome {
+//   margin: 0 auto;
+//   margin-top: 10%;
+//   width: 65%;
+// }
+
+// .scroll {
+//   clear: both;
+//   margin-top: 3%;
+//   width: 85px;
+// }
+
+// p.disclaimer {
+//   font-weight: bold;
+//   font-size: 0.8em;
+// }
+
+// div.body {
+  
+//   section {
+//     text-align: left;
+//     padding-top: 2%;
+//     padding-left: 5%;
+    
+//     .emphasis {
+//       font-weight: bold;
+//       font-style: italic;
+//       font-size: 2em;
+//       margin-left: 1%;
+//     }
+//   }
+// }
+
+// .mainpage {
+//   border: 1px solid black;
+//   height: 200px;
+// }
+
+// .coder {
+//   background-color: goldenrod;
+// }
+
+// .creator {
+//   background-color: rgb(32, 192, 229);
+// }
+
+// .collab {
+//   background-color: rgb(214, 117, 38);
+// }
+
+// .connect {
+//   background-color: rgb(95, 206, 20);
+// }
 
 footer {
+  clear: both; 
+  display: flex;
+  
+	justify-content: space-around;
+	height: 100px;
+	text-align: center;
+	margin-top: 3%;
   border-top: 1px solid black;
-
   img {
     width: 50px;
   }
-}
-
-/* Desktop web screens */
-@media screen and (min-width: 800px) {
-  .scroll {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  body {
-    background-color: yellow;
-
-  .scroll {
-    margin-top: 30%;
-  }
-}
-
-  /* Middle screens */
-  @media screen and (max-width: 650px) {
-    body {
-      background-color: blue;
-    }
-
-    /* Mobile Smallest Screens */
-    @media screen and (max-width: 500px) {
-      
-
-      body {
-        background-color: red;
-      }
-
-      .scroll {
-        margin-top: 10%;
-      }
-    }
-  }
-}
-
-main {
-  background-color: silver;
-  box-shadow: 0 3px 2px -2px black;
-  clear: both;
-  padding-bottom: 2%;
-  margin-bottom: 2%;
-  text-align: center;
-
-  p {
-    // font-family: 'Lato', sans-serif;
-    margin: 10px auto;
-    text-align: justify;
-    text-indent: 30px;
-    width:60%;
-  }
-}
-
-main.contact p {
-  display: inline-block;
-}
-
-main.contact p strong {
-  margin-right: 20px;
-  width: 110px;
-}
-
-.welcome {
-  margin: 0 auto;
-  margin-top: 10%;
-  width: 65%;
-}
-
-.scroll {
-  clear: both;
-   margin-top: 3%;
-  width: 85px;
-}
-
-p.disclaimer {
-  font-weight: bold;
-  font-size: 0.8em;
-}
-
-div.body {
-
-  section {
-    text-align: left;
-    padding-top: 2%;
-    padding-left: 5%;
-
-    .emphasis {
-      font-weight: bold;
-      font-style: italic;
-      font-size: 2em;
-      margin-left: 1%;
-    }
-  }
-}
-
-.mainpage {
-  border: 1px solid black;
-  height: 200px;
-}
-
-.coder {
-  background-color: goldenrod;
-}
-
-.creator {
-  background-color: rgb(32, 192, 229);
-}
-
-.collab {
-  background-color: rgb(214, 117, 38);
-}
-
-.connect {
-  background-color: rgb(95, 206, 20);
-}
-
-footer {
-  clear: both;
 }

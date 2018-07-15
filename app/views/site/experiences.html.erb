@@ -10,12 +10,8 @@
                 <%= image_tag 'pr-logo.png', height: '110px', alt: 'PowerReviews Logo' %>
 			</div>
 			<div class="thumbnails">
-			<% link_to '', id: 'powerreviews' do %>
-				<%= image_tag 'calendar-thumbnail.png' %>
-			<% end %>
-				<% link_to 'http://www.powerreviews.com', target: '_blank' do %>
-					<%= image_tag 'web-logo.png' %>
-				<% end %>
+				<%= image_tag 'calendar-thumbnail.png', id:'powerreviews-1' %>
+			    <a href='http://powerreviews.com' target='_blank'><%= image_tag 'web-logo.png' %></a>	
 			</div>
 		</div>
 		<div class="info">
@@ -33,12 +29,8 @@
                 <%= image_tag 'pr-logo.png', height: '110px', alt: 'PowerReviews Logo' %>
 			</div>
 			<div class="thumbnails">
-			<% link_to '', id: 'powerreviews' do %>
-				<%= image_tag 'calendar-thumbnail.png' %>
-			<% end %>
-				<% link_to 'http://www.powerreviews.com', target: '_blank' do %>
-					<%= image_tag 'web-logo.png' %>
-				<% end %>
+                <%= image_tag 'calendar-thumbnail.png', id:'powerreviews-2' %>
+			    <a href='http://powerreviews.com' target='_blank'><%= image_tag 'web-logo.png' %></a>	
 			</div>
 		</div>
 		<div class="info">
@@ -57,12 +49,8 @@
             <%= image_tag 'dbclogo.png', height: '40px', alt: 'Dev Bootcamp Logo' %>
 			</div>
 			<div class="thumbnails">
-				<% link_to '', id: 'dbc' do %>
-					<%= image_tag 'calendar-thumbnail.png' %>
-				<% end %>
-				<% link_to 'http://devbootcamp.com', target: '_blank' do %>
-					<%= image_tag 'web-logo.png' %>
-				<% end %>
+				<%= image_tag 'calendar-thumbnail.png', id:'dbc' %>
+			    <a href='https://en.wikipedia.org/wiki/Dev_Bootcamp' target='_blank'><%= image_tag 'web-logo.png', id:'dbc-web' %></a>
 			</div>
 		</div>
 		<div class="info">
@@ -79,12 +67,8 @@
                 <%= image_tag 'choppingblock.jpg', height: '125px', alt: 'Chopping Block Logo' %>
 			</div>
 			<div class="thumbnails">
-			<% link_to '', id: 'choppingblock' do %>
-				<%= image_tag 'calendar-thumbnail.png' %>
-			<% end %>
-				<% link_to 'http://www.thechoppingblock.com', target: '_blank' do %>
-					<%= image_tag 'web-logo.png' %>
-				<% end %>
+                <%= image_tag 'calendar-thumbnail.png', id:'choppingblock' %>
+			    <a href='http://www.thechoppingblock.com/' target='_blank'><%= image_tag 'web-logo.png' %></a>	
 			</div>
 		</div>
 		<div class="info">
@@ -102,12 +86,8 @@
                 <%= image_tag 'creativecircus.png', height: '125px', alt: 'Creative Circus Logo' %>
 			</div>
 			<div class="thumbnails">
-			<% link_to '', id: 'circus' do %>
-				<%= image_tag 'calendar-thumbnail.png' %>
-			<% end %>
-				<% link_to 'http://summeratthecircus.com/', target: '_blank' do %>
-					<%= image_tag 'web-logo.png' %>
-				<% end %>
+                <%= image_tag 'calendar-thumbnail.png', id:'circus' %>
+			    <a href='https://creativecircus.edu/' target='_blank'><%= image_tag 'web-logo.png' %></a>	
 			</div>
 		</div>
 		<div class="info">
@@ -125,12 +105,8 @@
                 <%= image_tag 'pdhp-logo.png', height: '125px', alt: 'PDHP Logo' %>
 			</div>
 			<div class="thumbnails">
-			<% link_to '', id: 'pdhp' do %>
-				<%= image_tag 'calendar-thumbnail.png' %>
-			<% end %>
-				<% link_to 'http://www.pdhp.org/camps/', target: '_blank' do %>
-					<%= image_tag 'web-logo.png' %>
-				<% end %>
+                <%= image_tag 'calendar-thumbnail.png', id:'pdhp' %>
+			    <a href='http://www.pdhp.org/camps/' target='_blank'><%= image_tag 'web-logo.png' %></a>	
 			</div>
 		</div>
 		<div class="info">
@@ -158,14 +134,14 @@
 <div id="education" style="display: none;">
 	<h2>Education</h2>
 		<section>
-			<img src="images/iowa.gif" alt="Iowa Logo" height="60px" />
+            <%= image_tag 'iowa.gif', height: '60px', alt: 'Iowa Logo' %>
 			<h3>University of Iowa</h3>
 			<p>BA Health and Human Physiology, 2015</p>
 			<p>Course highlights include...</p>
 			<p><em>Applied Sport and Exercise Psychology, Physiology of Nutrition, Biomechanics of Human Motion</em></p>
 		</section>
 		<section>
-			<img src="images/iwu-logo.png" alt="IWU Logo" height="60px" />
+            <%= image_tag 'iwu-logo.png', height: '60px', alt: 'IWU Logo' %>
 			<h3>Illinois Wesleyan University</h3>
 			<p>Attended freshman year</p>
 			<p>Course highlights include...</p>

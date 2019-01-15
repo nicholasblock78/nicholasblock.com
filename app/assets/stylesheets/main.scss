@@ -35,6 +35,28 @@ header {
   }
 }
 
+.buttons {
+
+  button {
+    background-color: rgb(219, 157, 23); /* Green */
+    border: none;
+    // color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+}
 main {
   height: 100%;
   display: flex;
@@ -83,6 +105,10 @@ footer {
   img {
     width: 50px;
   }
+}
+
+#projects div {
+  margin-top: 2%;
 }
 
 div.top {

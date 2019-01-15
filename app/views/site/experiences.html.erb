@@ -29,7 +29,7 @@
 			<div class="logo">
                 <%= image_tag 'pr-logo.png', height: '110px', alt: 'PowerReviews Logo' %>
 			</div>
-			<div class="thumbnails">
+			<div class="thumbnails" style="display:none;">
 				<%= image_tag 'calendar-thumbnail.png', id:'powerreviews-1' %>
 			    <a href='http://powerreviews.com' target='_blank'><%= image_tag 'web-logo.png' %></a>	
 			</div>
@@ -44,12 +44,12 @@
 		</div>
 	</section>
 	<section style="border-top:none;">
-		<div class="left" style="visibility:hidden;">
-			<div class="logo" >
+		<div class="left" style="">
+			<div class="logo" style="display:none;" >
                 <%= image_tag 'pr-logo.png', height: '110px', alt: 'PowerReviews Logo' %>
 			</div>
 			<div class="thumbnails">
-                <%= image_tag 'calendar-thumbnail.png', id:'powerreviews-2', style:'visibility:hidden;' %>
+                <%= image_tag 'calendar-thumbnail.png', id:'powerreviews-2', style:'' %>
 			    <a href='http://powerreviews.com' target='_blank'><%= image_tag 'web-logo.png' %></a>	
 			</div>
 		</div>
@@ -139,7 +139,8 @@
 		</div>
 	</section>
 	<section id="bottom">
-		<p>Check out some of the older places I've worked at too!</p>
+	<div>
+		<p >Check out some of the older places I've worked at too!</p>
 		<ul>
 			<li>Camp Counselor &amp; Lifeguard at my local JCYS</li>
 			<li>Operated a Bungee Jump amusement ride in Bloomington's Eastland Mall</li>
@@ -148,6 +149,7 @@
 			<li>Delivery Driver for a few different places</li>
 			<li>Line cook at Chipotle and One Twenty Six Restaurant</li>
 		</ul>
+		</div>
 	</section>
 </div>
 

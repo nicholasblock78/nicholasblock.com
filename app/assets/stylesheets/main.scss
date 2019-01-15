@@ -25,7 +25,12 @@ header {
         float: right;
         margin: 2%;
         list-style-type: none;
+        text-decoration: none;
       }
+
+        a {
+          text-decoration: none;
+        }
     }
   }
 }
@@ -33,7 +38,7 @@ header {
 main {
   height: 100%;
   display: flex;
-  width: 90%;
+  width: 80%;
   margin: 1% auto;
   justify-content: center;
 }
@@ -67,6 +72,10 @@ footer {
 
          li {
            list-style-type: none;
+
+           a {
+            text-decoration: none;
+           }
          }
       } 
   }
@@ -83,4 +92,14 @@ div.top {
 
 div.bottom {
   display: flex;
+}
+
+section#bottom div {
+
+  margin: 1% auto;
+
+  
+  ul {
+    margin-left: 10%;
+  }
 }

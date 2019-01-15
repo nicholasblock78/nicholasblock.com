@@ -4,6 +4,25 @@
 	<button class="education">Education</button>
 </div>
 <div id="experiences">
+<section>
+		<div class="left">
+			<div class="logo">
+                <%= image_tag 'medill-logo.gif', height: '90px', alt: 'NU Medill Logo' %>
+			</div>
+			<div class="thumbnails">
+				<%= image_tag 'calendar-thumbnail.png', id:'powerreviews-1' %>
+			    <a href='http://powerreviews.com' target='_blank'><%= image_tag 'web-logo.png' %></a>	
+			</div>
+		</div>
+		<div class="info">
+			<ul>
+				<h3>Integrated Marketing Communications Masters Student</h3>
+				<li>Courses Taken: Marketing Management, Market Research</li>
+				<li>Currently Taking: Consumer Insights, Financial Accounting</li>
+				<li>Future Classes: Advanced Consumer Insights, Data Science Foundations</li>
+			</ul>
+		</div>
+	</section>
 	<section>
 		<div class="left">
 			<div class="logo">
@@ -23,13 +42,13 @@
 			</ul>
 		</div>
 	</section>
-	<section>
-		<div class="left">
-			<div class="logo">
+	<section style="border-top:none;">
+		<div class="left" style="visibility:hidden;">
+			<div class="logo" >
                 <%= image_tag 'pr-logo.png', height: '110px', alt: 'PowerReviews Logo' %>
 			</div>
 			<div class="thumbnails">
-                <%= image_tag 'calendar-thumbnail.png', id:'powerreviews-2' %>
+                <%= image_tag 'calendar-thumbnail.png', id:'powerreviews-2', style:'visibility:hidden;' %>
 			    <a href='http://powerreviews.com' target='_blank'><%= image_tag 'web-logo.png' %></a>	
 			</div>
 		</div>

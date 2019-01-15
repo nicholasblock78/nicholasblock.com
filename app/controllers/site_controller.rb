@@ -15,7 +15,7 @@ class SiteController < ApplicationController
     @product = Product.find(params[:id])
   end
 
-  def brands
+  def projects
   end
 
   def hire

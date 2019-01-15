@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   resources :products
 
   get 'resume' => 'site#resume'
-  get 'brands' => 'site#brands'
+  get 'projects' => 'site#projects'
   get 'hire-me' => 'site#hire'
   get 'review' => 'site#review'
   get 'services-skills' => 'site#services-skills'

@@ -20,8 +20,7 @@
       <nav>
         <ul>
           <li><%= link_to "Home", root_path %></li>
-          <li><%= link_to "About", about_path %></li>
-          <li><%= link_to "Projects", brands_path %></li>
+          <li><%= link_to "Projects", projects_path %></li>
           <li><%= link_to "Services + Skills", services_skills_path %></li>
           <li><%= link_to "Experiences", experiences_path %></li>
           <li>Q &amp; A</li>
@@ -31,16 +30,8 @@
     </header>
 
     <div class="body">
-      
       <main>
-        <div class="left-third,third,left">
-          <div id="top-headline"></div>
-        </div>
-        <div class="center-third,third,center">
           <%= yield %>
-        </div>
-        <div class="right-third,third,right">
-          <div id="trending"></div>
         </div>
       </main>
       

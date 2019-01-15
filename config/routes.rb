@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'about' => 'site#about'
   get 'contact' => 'site#contact'
   get 'experiences' => 'site#experiences'
+  get 'Q_A' => 'site#qa'
 
   root 'site#index'
 end

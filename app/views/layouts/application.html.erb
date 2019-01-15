@@ -19,11 +19,13 @@
       <!-- <h1>Welcome to the <em>Block</em></h1> -->
       <nav>
         <ul>
+          <% if request.original_fullpath != '/' %>
           <li><%= link_to "Home", root_path %></li>
+          <% end %>
           <li><%= link_to "Projects", projects_path %></li>
           <li><%= link_to "Services + Skills", services_skills_path %></li>
           <li><%= link_to "Experiences", experiences_path %></li>
-          <li>Q &amp; A</li>
+          <li><%= link_to "Q & A", 'Q_A' %></li>
           <!-- <li><%= link_to "Products", products_path %></li> -->
         </ul>
       </nav>
@@ -38,18 +40,20 @@
     </div>
 
     <footer>
-      <div class="links">
-        <ul>
-          <li><%= link_to "About", about_path %></li>
-          <li><%= link_to "Contact", contact_path %></li>
-          <li><%= link_to "Hire Me", hire_me_path %></li>
-        </ul>
-      </div>
-      <div class="social icons">
-        <a href="http://www.nicholasblock.com/resume.html"><%= image_tag("resume.png") %></a>
-  			<a target="_blank" href="https://www.linkedin.com/in/nicholasblock78"><%= image_tag("linkedin-logo.png") %></a>
-  			<a target="_blank" href="https://github.com/nicholasblock78"><%= image_tag("github-logo.png") %></a>
-        <a target="_blank" href="https://facebook.com/nick.block.94"><%= image_tag("facebook.png") %></a>
+      <div>
+        <div class="links">
+          <ul>
+            <li><%= link_to "About", about_path %></li>
+            <li><%= link_to "Contact", contact_path %></li>
+            <li><%= link_to "Hire Me", hire_me_path %></li>
+          </ul>
+        </div>
+        <div class="social icons">
+          <a href="http://www.nicholasblock.com/resume.html"><%= image_tag("resume.png") %></a>
+          <a target="_blank" href="https://www.linkedin.com/in/nicholasblock78"><%= image_tag("linkedin-logo.png") %></a>
+          <a target="_blank" href="https://github.com/nicholasblock78"><%= image_tag("github-logo.png") %></a>
+          <a target="_blank" href="https://facebook.com/nick.block.94"><%= image_tag("facebook.png") %></a>
+        </div>
       </div>
     </footer>
   </body>

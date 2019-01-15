@@ -18,6 +18,9 @@ class SiteController < ApplicationController
   def projects
   end
 
+  def Q_A
+  end
+
   def hire
   end
 end

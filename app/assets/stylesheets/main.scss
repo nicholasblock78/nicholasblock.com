@@ -146,3 +146,13 @@ h4 {
     height: 200px;
   }
 }
+
+#skills ul li {
+  margin-left: 3%;
+  width: 300px;
+}
+#skills ul li:first-child {
+  font-weight: bold;
+  list-style-type: none;
+  margin-left: 0;
+}

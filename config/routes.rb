@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'review' => 'site#review'
   get 'services-skills' => 'site#services-skills'
   get 'about' => 'site#about'
+  get 'samples' => 'site#samples'
   get 'contact' => 'site#contact'
   get 'experiences' => 'site#experiences'
   get 'Q_A' => 'site#qa'

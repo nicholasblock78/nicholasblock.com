@@ -147,11 +147,19 @@ h4 {
   }
 }
 
-#skills ul li {
-  margin-left: 3%;
-  width: 300px;
+#skills  {
+  display: flex;
 }
-#skills ul li:first-child {
+
+#skillists {
+  padding-top: 20px;
+}
+
+#skillists ul li {
+  margin-left: 6%;
+  width: 600px;
+}
+#skillists  ul li:first-child {
   font-weight: bold;
   list-style-type: none;
   margin-left: 0;

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+  <url>
+    <loc>http://www.nicholasblock.com</loc>
+    <lastmod>2019-07-22</lastmod>
+  </url>
+  <url>
+    <loc>http://www.nicholasblock.com/projects</loc>
+    <lastmod>2019-07-22</lastmod>
+  </url>
+  <url>
+    <loc>http://www.nicholasblock.com/samples</loc>
+    <lastmod>2019-07-22</lastmod>
+  </url>
+  <url>
+    <loc>http://www.nicholasblock.com/services-skills</loc>
+    <lastmod>2019-07-22</lastmod>
+  </url>
+  <url>
+    <loc>http://www.nicholasblock.com/experiences</loc>
+    <lastmod>2019-07-22</lastmod>
+  </url>
+  <url>
+    <loc>http://www.nicholasblock.com/Q_A</loc>
+    <lastmod>2019-07-22</lastmod>
+  </url>
+  <url>
+    <loc>http://www.nicholasblock.com/resume.html</loc>
+    <lastmod>2019-07-22</lastmod>
+  </url>
+</urlset>
